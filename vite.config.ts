@@ -10,6 +10,7 @@ export default defineConfig({
     react(),
     legacy()
   ],
+  base:"MARBF-Cooperative",
   test: {
     globals: true,
     environment: 'jsdom',

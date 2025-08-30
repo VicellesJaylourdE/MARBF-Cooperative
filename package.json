@@ -1,9 +1,12 @@
 {
-  "name": "ionic-app-base",
+  "name": "MARBF-Cooperative",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "VicellesJaylourdE.github.io/MARBF-Cooperative",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
